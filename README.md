@@ -1,24 +1,5 @@
-# README
+Ujenzi-Builders React/Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description
+This is an app that tries to connect service providers to their clients. Specifically it targets the more technical service providers such as artisans, or engineers to connect to
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
