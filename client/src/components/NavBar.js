@@ -17,7 +17,7 @@ function NavBar({ contractor, setContractor }) {
       </div>
       <div>
         {contractor ? (
-          <button onClick={handleLogoutClick}>Logout</button>
+          <button onClick={handleLogoutClick} className="btn">Logout</button>
         ) : (
           <>
             <Link to="/signup">Signup</Link>

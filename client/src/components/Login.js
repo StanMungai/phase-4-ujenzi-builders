@@ -22,17 +22,19 @@ function Login({ setContractor }) {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <h1>Login</h1>
-        <label htmlFor="name">Name</label>
+        <h1 className="text">Login</h1>
+        <label htmlFor="name" className="text">Name</label>
         <input
+          className="inputs"
           type="text"
           id="name"
           autoComplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password" className="text">Password</label>
         <input
+          className="inputs"  
           type="password"
           id="password"
           autoComplete="current-password"

@@ -79,8 +79,10 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: phase_4_ujenzi_builders_production
-  username: phase_4_ujenzi_builders
-  password: <%= ENV["PHASE_4_UJENZI_BUILDERS_DATABASE_PASSWORD"] %>
+# production:
+#   <<: *default
+#   database: phase_4_ujenzi_builders_production
+#   username: phase_4_ujenzi_builders
+#   password: <%= ENV["PHASE_4_UJENZI_BUILDERS_DATABASE_PASSWORD"] %>
+  production:
+    url: <%= ENV["DATABASE_URL"] %>

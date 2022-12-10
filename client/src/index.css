@@ -39,21 +39,44 @@ main {
 }
 
 form {
-  background-color: #fff8e7;
-  border: 1px solid salmon;
+  background-color: #000814;
+  /* border: 1px solid salmon; */
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   width: 400px;
-  margin: 0 auto;
-  padding: 0 1rem 1rem;
+  margin: 100px auto;
+  padding: 0 1rem 4rem;
 }
 
 form input {
   margin: 0.25rem 0;
 }
 
-form button[type="submit"] {
+.btn{
   width: 40%;
+  margin-top: 30px;
+  color: #ccc;
+  background: none;
+  padding: 10px;
+  border: 1px solid #003566;
+  border-radius: 10px;
+
+}
+
+.inputs {
+  background: none;
+  padding: 10px;
+  border: 1px solid #003566;
+  border-radius: 10px;
+  color: #ccc;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.text {
+  color: #ccc;
+  margin: 5px;
 }
 
 .container {

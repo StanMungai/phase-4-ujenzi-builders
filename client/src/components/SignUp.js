@@ -28,32 +28,35 @@ function SignUp({ setContractor }) {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <h1>Sign Up</h1>
-        <label htmlFor="name">Name</label>
+        <h1 className="text">Sign Up</h1>
+        <label htmlFor="name" className="text">Name</label>
         <input
+          className="inputs"
           type="text"
           id="name"
           autoComplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password" className="text">Password</label>
         <input
+          className="inputs"
           type="password"
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           autoComplete="current-password"
         />
-        <label htmlFor="password">Password Confirmation</label>
+        <label htmlFor="password" className="text">Password Confirmation</label>
         <input
+          className="inputs"
           type="password"
           id="password_confirmation"
           value={passwordConfirmation}
           onChange={(e) => setPasswordConfirmation(e.target.value)}
           autoComplete="current-password"
         />
-        <button type="submit">Sign Up</button>
+        <button type="submit" className="btn">Sign Up</button>
       </form>
     </div>
   );
